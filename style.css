@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background:#f3f3f8;
+    color:#333;
+}
+
+/* NAVBAR */
+.navbar{
+    background:white;
+    padding:15px 25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.logo{
+    font-size:20px;
+    font-weight:700;
+    color:#6c5ce7;
+}
+.menu a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#444;
+    font-weight:600;
+    transition:0.2s;
+}
+.menu a:hover{
+    color:#6c5ce7;
+}
+
+/* HALAMAN UTAMA */
+.page{
+    display:none;
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* DEFAULT HOME */
+#home{
+    display:block;
+}
+
+:target{
+    display:block;
+}
+
+.hero{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.intro{
+    color:#777;
+    font-size:17px;
+}
+
+/* CARD DESTINASI */
+.card{
+    display:flex;
+    gap:20px;
+    background:#fafafa;
+    padding:20px;
+    border-radius:12px;
+    margin:25px 0;
+    border:1px solid #eee;
+}
+.card img{
+    width:260px;
+    border-radius:12px;
+}
+
+/* CERITA */
+.story{
+    margin:25px 0;
+}
+.story img{
+    width:100%;
+    border-radius:12px;
+    margin:15px 0;
+}
+
+ul{
+    padding-left:20px;
+}
